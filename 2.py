@@ -5,7 +5,7 @@
 """
 
 def is_alph(c):
-    if (c > 64 and c < 91) or (c > 96 and c < 123):
+    if (c > 64 and c < 91):
         return True
     return False
 
